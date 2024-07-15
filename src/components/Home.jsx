@@ -63,7 +63,7 @@ function Home() {
   return (
     <>
       <div
-        className={`relative h-[560px] tablet:h-[660px] ${bgClass} rounded-b-[50px]`}
+        className={`relative h-[600px] tablet:h-[600px] ${bgClass} rounded-b-[50px]`}
       >
         <header>
           <Search />
@@ -82,7 +82,7 @@ function Home() {
 
           <div className="tablet:flex tablet:justify-between">
             {/* ------------------------------------------------------- */}
-            <div className="grid grid-cols-3 gap-4 grid-rows-2">
+            <div className="grid grid-cols-3 gap-4 grid-rows-2 px-4">
               {/* AIR QUALITY */}
               <div className="flex flex-col p-4 bg-white opacity-80 rounded-xl h-full">
                 <h2 className="text-black font-semibold">Q. dell&apos;aria</h2>

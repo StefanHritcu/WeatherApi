@@ -1,6 +1,4 @@
-# env
-.env
-
+# NB: ho tolto .env per far funzionare le chiamate api sul sito deployato su netilfy
 
 # Logs
 logs
